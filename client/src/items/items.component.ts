@@ -36,7 +36,7 @@ import {GadgetService} from '../common/services/gadget.service.ts'
 })
 export class Items {
   items: Observable<Array<Item>>;
-  selectedItem: Observable<Item>;
+  selectedItem: Observable<any>;
   gadget: Observable<Gadget>;
 
   constructor(private itemsService: ItemsService,
